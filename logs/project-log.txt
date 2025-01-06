@@ -1,0 +1,589 @@
+2024-12-29 18:16:52 [Thread-0] INFO  dal.WordDAO - getSuggestions method called with prefix: r
+2024-12-29 18:16:53 [Thread-0] DEBUG dal.WordDAO - Prepared statement created with query: SELECT word FROM Words WHERE word LIKE ?
+2024-12-29 18:16:53 [Thread-0] INFO  dal.WordDAO - getSuggestions method completed, returning 0 suggestions
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Adding word to database: uy
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Word inserted successfully with ID: 218
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Urdu meaning inserted for word: uy
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Persian meaning inserted for word: uy
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Transaction committed successfully.
+2024-12-29 18:17:05 [AWT-EventQueue-0] INFO  dal.WordDAO - Database resources cleaned up.
+2024-12-29 18:17:13 [Thread-1] INFO  dal.WordDAO - Fetching all words from database.
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: كتاب, Urdu: کتاب, Persian: کتاب
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: مدرسة, Urdu: اسکول, Persian: مدرسه
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: معلم, Urdu: استاد, Persian: معلم
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: قمر, Urdu: چاند, Persian: ماه
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: شمس, Urdu: سورج, Persian: خورشید
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: حب, Urdu: محبت, Persian: محبت
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: قلم, Urdu: قلم, Persian: قلم
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: سلام, Urdu: سلام, Persian: سلام
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: بحر, Urdu: سمندر, Persian: دریا
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: شجرة, Urdu: درخت, Persian: درخت
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: null, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: نقل, Persian: مترجم
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: existingWord, Urdu: مصر, Persian: تست
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: kashish, Urdu: uhuh, Persian: hbhb
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: kashju, Urdu: sdf, Persian: sdf
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: uyhyh, Urdu: byhyhuhuh, Persian: yyyy
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: uhyubyu, Urdu: yhbuyb, Persian: nubyub
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: uygtg, Urdu: tgytftrf, Persian: trdd5d5
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: igureu, Urdu: sdcdu, Persian: efiwe
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: gytvtv, Urdu: tvtyvtyvyu, Persian: ygvytvtv
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: existingword, Urdu: موجود, Persian: كلمة
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: iojreoi, Urdu: hiuhiu, Persian: ygtg
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: jhgiugii, Urdu: w423909, Persian: oeqow
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: dsj, Urdu: aijiue, Persian: ewiot
+2024-12-29 18:17:13 [Thread-1] DEBUG dal.WordDAO - Fetched word: uy, Urdu: yhyh, Persian: yyhy
+2024-12-29 18:17:13 [Thread-1] INFO  dal.WordDAO - Returning list of all words.
+2024-12-29 18:17:16 [AWT-EventQueue-0] INFO  dal.WordDAO - Checking if word is in favourites: سلام
+2024-12-29 18:17:16 [AWT-EventQueue-0] INFO  dal.WordDAO - Word سلام is already in favourites
+2024-12-29 18:17:19 [AWT-EventQueue-0] INFO  dal.WordDAO - Attempting to delete favorite word: سلام
+2024-12-29 18:17:19 [AWT-EventQueue-0] INFO  dal.WordDAO - Successfully deleted favorite word: سلام
+2024-12-29 18:17:21 [Thread-2] INFO  dal.WordDAO - Fetching all words from database.
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: كتاب, Urdu: کتاب, Persian: کتاب
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: مدرسة, Urdu: اسکول, Persian: مدرسه
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: معلم, Urdu: استاد, Persian: معلم
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: قمر, Urdu: چاند, Persian: ماه
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: شمس, Urdu: سورج, Persian: خورشید
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: حب, Urdu: محبت, Persian: محبت
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: قلم, Urdu: قلم, Persian: قلم
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: سلام, Urdu: سلام, Persian: سلام
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: بحر, Urdu: سمندر, Persian: دریا
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: شجرة, Urdu: درخت, Persian: درخت
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: null, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: نقل, Persian: مترجم
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: existingWord, Urdu: مصر, Persian: تست
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: kashish, Urdu: uhuh, Persian: hbhb
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: kashju, Urdu: sdf, Persian: sdf
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: uyhyh, Urdu: byhyhuhuh, Persian: yyyy
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: uhyubyu, Urdu: yhbuyb, Persian: nubyub
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: uygtg, Urdu: tgytftrf, Persian: trdd5d5
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: igureu, Urdu: sdcdu, Persian: efiwe
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: gytvtv, Urdu: tvtyvtyvyu, Persian: ygvytvtv
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: existingword, Urdu: موجود, Persian: كلمة
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: iojreoi, Urdu: hiuhiu, Persian: ygtg
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: jhgiugii, Urdu: w423909, Persian: oeqow
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: dsj, Urdu: aijiue, Persian: ewiot
+2024-12-29 18:17:21 [Thread-2] DEBUG dal.WordDAO - Fetched word: uy, Urdu: yhyh, Persian: yyhy
+2024-12-29 18:17:21 [Thread-2] INFO  dal.WordDAO - Returning list of all words.
+2024-12-29 18:17:22 [AWT-EventQueue-0] INFO  dal.WordDAO - Checking if word is in favourites: test
+2024-12-29 18:17:22 [AWT-EventQueue-0] INFO  dal.WordDAO - Word test is not in favourites
+2024-12-29 18:17:24 [AWT-EventQueue-0] INFO  dal.WordDAO - markAsFavorite method called for word: test
+2024-12-29 18:17:24 [AWT-EventQueue-0] DEBUG dal.WordDAO - Connection established to the database.
+2024-12-29 18:17:24 [AWT-EventQueue-0] DEBUG dal.WordDAO - Prepared statement created with SQL: INSERT INTO Favourites (wordid, wordname) VALUES (? ,?)
+2024-12-29 18:17:24 [AWT-EventQueue-0] INFO  dal.WordDAO - Rows affected by the insert operation: 1
+2024-12-29 18:17:24 [AWT-EventQueue-0] DEBUG dal.WordDAO - PreparedStatement closed.
+2024-12-29 18:17:24 [AWT-EventQueue-0] DEBUG dal.WordDAO - Database connection closed.
+2024-12-29 18:17:26 [Thread-3] INFO  dal.WordDAO - Fetching all words from database.
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: كتاب, Urdu: کتاب, Persian: کتاب
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: مدرسة, Urdu: اسکول, Persian: مدرسه
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: معلم, Urdu: استاد, Persian: معلم
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: قمر, Urdu: چاند, Persian: ماه
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: شمس, Urdu: سورج, Persian: خورشید
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: حب, Urdu: محبت, Persian: محبت
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: قلم, Urdu: قلم, Persian: قلم
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: سلام, Urdu: سلام, Persian: سلام
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: بحر, Urdu: سمندر, Persian: دریا
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: شجرة, Urdu: درخت, Persian: درخت
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: null, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: نقل, Persian: مترجم
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: duplicate, Urdu: مترادف, Persian: مساوی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: existingWord, Urdu: مصر, Persian: تست
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: test, Urdu: مصر, Persian: تست
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: newWord, Urdu: آزمائش, Persian: آزمایشی
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: kashish, Urdu: uhuh, Persian: hbhb
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: kashju, Urdu: sdf, Persian: sdf
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: uyhyh, Urdu: byhyhuhuh, Persian: yyyy
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: uhyubyu, Urdu: yhbuyb, Persian: nubyub
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: uygtg, Urdu: tgytftrf, Persian: trdd5d5
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: igureu, Urdu: sdcdu, Persian: efiwe
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: gytvtv, Urdu: tvtyvtyvyu, Persian: ygvytvtv
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example2, Urdu: نمونہ2, Persian: مثال2
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example3, Urdu: نمونہ3, Persian: مثال3
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example1, Urdu: نمونہ1, Persian: مثال1
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: existingword, Urdu: موجود, Persian: كلمة
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example7, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: testword, Urdu: ٹیسٹ, Persian: کلمہ
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example11, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: partial, Urdu: معنی, Persian: null
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: example, Urdu: نمونہ, Persian: مثال
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: iojreoi, Urdu: hiuhiu, Persian: ygtg
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: jhgiugii, Urdu: w423909, Persian: oeqow
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: dsj, Urdu: aijiue, Persian: ewiot
+2024-12-29 18:17:26 [Thread-3] DEBUG dal.WordDAO - Fetched word: uy, Urdu: yhyh, Persian: yyhy
+2024-12-29 18:17:26 [Thread-3] INFO  dal.WordDAO - Returning list of all words.
+2024-12-29 18:17:30 [Thread-4] INFO  dal.WordDAO - Entering getFavoriteWords method
+2024-12-29 18:17:30 [Thread-4] INFO  dal.WordDAO - Exiting getFavoriteWords method, found 6 favorite words
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Fetching root suggestions for prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] DEBUG dal.WordDAO - Prepared SQL query with prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Exiting getRootSuggestions method for prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Fetching root suggestions for prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] DEBUG dal.WordDAO - Prepared SQL query with prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Exiting getRootSuggestions method for prefix: uh
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Fetching root suggestions for prefix: u
+2024-12-29 18:17:41 [AWT-EventQueue-0] DEBUG dal.WordDAO - Prepared SQL query with prefix: u
+2024-12-29 18:17:41 [AWT-EventQueue-0] INFO  dal.WordDAO - Exiting getRootSuggestions method for prefix: u
+2024-12-29 18:18:13 [AWT-EventQueue-0] INFO  dal.WordDAO - Fetching root suggestions for prefix: ك
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Prepared SQL query with prefix: ك
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] DEBUG dal.WordDAO - Added root suggestion: كتب
+2024-12-29 18:18:13 [AWT-EventQueue-0] INFO  dal.WordDAO - Exiting getRootSuggestions method for prefix: ك
+2024-12-29 18:18:16 [AWT-EventQueue-0] INFO  dal.WordDAO - Entering getWordsByRoot method with root: ك
+2024-12-29 18:18:16 [AWT-EventQueue-0] INFO  dal.WordDAO - Exiting getWordsByRoot method, found 108 words
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Adding word to database: dfr
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Word inserted successfully with ID: 219
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Urdu meaning inserted for word: dfr
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Persian meaning inserted for word: dfr
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Transaction committed successfully.
+2024-12-30 13:18:08 [AWT-EventQueue-0] INFO  dal.WordDAO - Database resources cleaned up.

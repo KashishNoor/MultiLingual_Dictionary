@@ -1,0 +1,13 @@
+/AbstractDAOFactory.class
+/CustomDictionaryDAO.class
+/DALFacade.class
+/ICustomDictionaryDAO.class
+/IDALFacade.class
+/IDAOFactory.class
+/IUserEntryDAO.class
+/IWebScrappingDAO.class
+/IWordDAO.class
+/MySQLDAOFactory.class
+/UserEntryDAO.class
+/WebScrappingDAO.class
+/WordDAO.class
